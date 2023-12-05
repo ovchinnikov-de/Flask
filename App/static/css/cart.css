@@ -1,0 +1,28 @@
+.bg-image {
+    /* Настройки картинки */
+    background-image: url('../images/corzina.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5; /* Прозрачность картинки */
+    height: 200px;
+
+    }
+
+.a1 {
+    display: block;
+    background-color: #c0392b;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    text-decoration: none;
+}
+
+.sum {
+    text-align: right;
+    margin-right: 10%;
+    font-weight: bold
+}

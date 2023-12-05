@@ -1,0 +1,25 @@
+{% extends 'index.html' %}
+{% block head %}
+<link rel="stylesheet" href="/static/css/order_list.css">
+{% endblock %}
+
+{% block content %}
+<p class="order-info">
+    Заказ № был оформлен на имя {{name}} {{fname}} по адресу {{adress}}
+</p>
+<p class="order-info">
+    Доставка запланирована на {{date}}
+</p>
+<p class="order-info">
+    Данные для связи:
+</p>
+<p class="order-info">
+    Телефон: {{phone_number}}
+</p>
+<p class="order-info">
+    Электронная почта: {{email}}
+</p>
+<p class="order-info">
+    Тип доставки: {{ delivery_type }}
+</p>
+{% endblock %}
